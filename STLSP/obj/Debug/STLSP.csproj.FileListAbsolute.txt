@@ -1,0 +1,145 @@
+C:\Users\willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\bin\Debug\STLSP.exe
+C:\Users\willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\bin\Debug\STLSP.pdb
+C:\Users\willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.csprojResolveAssemblyReference.cache
+C:\Users\willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Form1.resources
+C:\Users\willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Properties.Resources.resources
+C:\Users\willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.csproj.GenerateResource.Cache
+C:\Users\willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.exe
+C:\Users\willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.pdb
+E:\W7 02-05-16\Projects\STLSP\STLSP\bin\Debug\STLSP.exe
+E:\W7 02-05-16\Projects\STLSP\STLSP\bin\Debug\STLSP.pdb
+E:\W7 02-05-16\Projects\STLSP\STLSP\obj\Debug\STLSP.csprojResolveAssemblyReference.cache
+E:\W7 02-05-16\Projects\STLSP\STLSP\obj\Debug\STLSP.Form1.resources
+E:\W7 02-05-16\Projects\STLSP\STLSP\obj\Debug\STLSP.Properties.Resources.resources
+E:\W7 02-05-16\Projects\STLSP\STLSP\obj\Debug\STLSP.csproj.GenerateResource.Cache
+E:\W7 02-05-16\Projects\STLSP\STLSP\obj\Debug\STLSP.exe
+E:\W7 02-05-16\Projects\STLSP\STLSP\obj\Debug\STLSP.pdb
+C:\Users\Willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Menu_Principal.resources
+C:\Users\Willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Usuarios.resources
+C:\Users\Willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Categorias.resources
+C:\Users\Willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Conversión_de_Texto_a_Audio.resources
+C:\Users\Willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Diccionario_LSP.resources
+C:\Users\Willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Ejecutar_Workflow.resources
+C:\Users\Willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Señas.resources
+C:\Users\Willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Workflow.resources
+C:\Users\Willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Reconocimiento_de_Movimientos.resources
+C:\Users\Willy\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Traductor_LSP.resources
+E:\STLSP\STLSP\obj\Debug\STLSP.exe
+E:\STLSP\STLSP\obj\Debug\STLSP.pdb
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.exe
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.pdb
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\bin\Debug\STLSP.exe
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\bin\Debug\STLSP.pdb
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.csprojResolveAssemblyReference.cache
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Conversión_de_Texto_a_Audio.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Diccionario_LSP.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Ejecutar_Workflow.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Categorias.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Señas.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Usuarios.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Workflow.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Form1.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Menu_Principal.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Properties.Resources.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Reconocimiento_de_Movimientos.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.Traductor_LSP.resources
+C:\Users\Willy Luyo\Documents\Visual Studio 2013\Projects\STLSP\STLSP\obj\Debug\STLSP.csproj.GenerateResource.Cache
+F:\STLSP\STLSP\obj\Debug\STLSP.exe
+F:\STLSP\STLSP\obj\Debug\STLSP.pdb
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.exe
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.pdb
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\bin\Debug\STLSP.exe
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\bin\Debug\STLSP.pdb
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\bin\Debug\Dominio.dll
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\bin\Debug\Negocio.dll
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\bin\Debug\GestionDatos.dll
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\bin\Debug\Dominio.pdb
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\bin\Debug\Negocio.pdb
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\bin\Debug\GestionDatos.pdb
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.csprojResolveAssemblyReference.cache
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Conversión_de_Texto_a_Audio.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Diccionario_LSP.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Ejecutar_Workflow.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Categorias.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Señas.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Usuarios.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Workflow.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Form1.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Menu_Principal.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Properties.Resources.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Reconocimiento_de_Movimientos.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.Traductor_LSP.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.csproj.GenerateResource.Cache
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.EscrituraUsuarios.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.IngresarUsuario.resources
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\STLSP\obj\Debug\STLSP.CambiarContrasena.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.CambiarContrasena.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Conversión_de_Texto_a_Audio.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Diccionario_LSP.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Ejecutar_Workflow.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.EscrituraUsuarios.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Categorias.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Señas.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Usuarios.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.GestionarWFAdministrador.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Workflow.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.IngresarUsuario.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Form1.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Menu_Principal.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Reconocimiento_de_Movimientos.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Traductor_LSP.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\bin\Debug\STLSP.exe
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\bin\Debug\STLSP.pdb
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\bin\Debug\Dominio.dll
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\bin\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\bin\Debug\GestionDatos.dll
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\bin\Debug\Dominio.pdb
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\bin\Debug\GestionDatos.pdb
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.exe
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.pdb
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.EscrituraCategoria.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.EscrituraSena.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.IngresarCategoria.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.IngresarSena.resources
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\STLSP\obj\Debug\STLSP.Visualizador.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.exe
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.pdb
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\bin\Debug\STLSP.exe
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\bin\Debug\STLSP.pdb
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\bin\Debug\Dominio.dll
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\bin\Debug\Negocio.dll
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\bin\Debug\EntityFramework.dll
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\bin\Debug\GestionDatos.dll
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\bin\Debug\Dominio.pdb
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\bin\Debug\Negocio.pdb
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\bin\Debug\EntityFramework.xml
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\bin\Debug\GestionDatos.pdb
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.CambiarContrasena.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Conversión_de_Texto_a_Audio.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Diccionario_LSP.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Ejecutar_Workflow.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.EscrituraCategoria.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.EscrituraSena.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.EscrituraUsuarios.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Categorias.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Señas.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Usuarios.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.GestionarWFAdministrador.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Gestionar_Workflow.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.IngresarCategoria.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.IngresarSena.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.IngresarUsuario.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Form1.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Menu_Principal.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Properties.Resources.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Reconocimiento_de_Movimientos.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Traductor_LSP.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.Visualizador.resources
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\STLSP\obj\Debug\STLSP.csproj.GenerateResource.Cache

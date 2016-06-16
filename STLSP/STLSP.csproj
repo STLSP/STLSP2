@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A635A47-55EA-46CE-9F4B-A923F5A51F68}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>STLSP</RootNamespace>
+    <AssemblyName>STLSP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Input.Manipulations" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CambiarContrasena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CambiarContrasena.Designer.cs">
+      <DependentUpon>CambiarContrasena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConversióndeTextoaAudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConversióndeTextoaAudio.Designer.cs">
+      <DependentUpon>ConversióndeTextoaAudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiccionarioLSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiccionarioLSP.Designer.cs">
+      <DependentUpon>DiccionarioLSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EjecutarWorkflow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EjecutarWorkflow.Designer.cs">
+      <DependentUpon>EjecutarWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EscrituraCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EscrituraCategoria.Designer.cs">
+      <DependentUpon>EscrituraCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EscrituraSena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EscrituraSena.Designer.cs">
+      <DependentUpon>EscrituraSena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EscrituraUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EscrituraUsuarios.Designer.cs">
+      <DependentUpon>EscrituraUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarCategorias.Designer.cs">
+      <DependentUpon>GestionarCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarSeñas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarSeñas.Designer.cs">
+      <DependentUpon>GestionarSeñas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarUsuarios.Designer.cs">
+      <DependentUpon>GestionarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarWFAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarWFAdministrador.Designer.cs">
+      <DependentUpon>GestionarWFAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarWorkflow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarWorkflow.Designer.cs">
+      <DependentUpon>GestionarWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresarCategoria.Designer.cs">
+      <DependentUpon>IngresarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarSena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresarSena.Designer.cs">
+      <DependentUpon>IngresarSena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresarUsuario.Designer.cs">
+      <DependentUpon>IngresarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicioSesion.Designer.cs">
+      <DependentUpon>InicioSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReconocimientodeMovimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReconocimientodeMovimientos.Designer.cs">
+      <DependentUpon>ReconocimientodeMovimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraductorLSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraductorLSP.Designer.cs">
+      <DependentUpon>TraductorLSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visualizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizador.Designer.cs">
+      <DependentUpon>Visualizador.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CambiarContrasena.resx">
+      <DependentUpon>CambiarContrasena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConversióndeTextoaAudio.resx">
+      <DependentUpon>ConversióndeTextoaAudio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiccionarioLSP.resx">
+      <DependentUpon>DiccionarioLSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EjecutarWorkflow.resx">
+      <DependentUpon>EjecutarWorkflow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EscrituraCategoria.resx">
+      <DependentUpon>EscrituraCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EscrituraSena.resx">
+      <DependentUpon>EscrituraSena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EscrituraUsuarios.resx">
+      <DependentUpon>EscrituraUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarCategorias.resx">
+      <DependentUpon>GestionarCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarSeñas.resx">
+      <DependentUpon>GestionarSeñas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarUsuarios.resx">
+      <DependentUpon>GestionarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarWFAdministrador.resx">
+      <DependentUpon>GestionarWFAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarWorkflow.resx">
+      <DependentUpon>GestionarWorkflow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresarCategoria.resx">
+      <DependentUpon>IngresarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresarSena.resx">
+      <DependentUpon>IngresarSena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresarUsuario.resx">
+      <DependentUpon>IngresarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InicioSesion.resx">
+      <DependentUpon>InicioSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReconocimientodeMovimientos.resx">
+      <DependentUpon>ReconocimientodeMovimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraductorLSP.resx">
+      <DependentUpon>TraductorLSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visualizador.resx">
+      <DependentUpon>Visualizador.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\STLSP - FONDO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton entrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Limpiar.png" />
+    <None Include="Resources\limpiar.jpg" />
+    <None Include="Resources\reproducir.png" />
+    <None Include="Resources\google+.png" />
+    <None Include="Resources\youtube.png" />
+    <None Include="Resources\twitter.png" />
+    <None Include="Resources\facebook.png" />
+    <None Include="Resources\gestionar_workflow_press.png" />
+    <None Include="Resources\reconocimiento_movimientos_press.png" />
+    <None Include="Resources\traductor_lsp_press.png" />
+    <None Include="Resources\gestionar_senas_press.png" />
+    <None Include="Resources\gestionar_categorias_press.png" />
+    <None Include="Resources\gestionar_usuario_press.png" />
+    <None Include="Resources\mujer_usuario.PNG" />
+    <None Include="Resources\hombre_usuario.PNG" />
+    <None Include="Resources\gestionar_workflow.png" />
+    <None Include="Resources\reconocimiento_movimientos.png" />
+    <None Include="Resources\diccionario_lsp.png" />
+    <None Include="Resources\conversion_texto_audio.png" />
+    <None Include="Resources\ejecutar_workflow.png" />
+    <None Include="Resources\conversion_texto_audio1.png" />
+    <None Include="Resources\conversion_texto_audio2.png" />
+    <None Include="Resources\diccionario_lsp_press.png" />
+    <None Include="Resources\conversion_texto_audio_press.png" />
+    <None Include="Resources\ejecutar_workflow_press.png" />
+    <None Include="Resources\conversion_texto_audio3.png" />
+    <None Include="Resources\conversion_texto_audio_press1.png" />
+    <Content Include="Resources\esquema web-01.jpg" />
+    <None Include="Resources\traductor_lsp.png" />
+    <None Include="Resources\gestionar_senas.png" />
+    <None Include="Resources\gestionar_categorias.png" />
+    <None Include="Resources\gestionar_usuario.png" />
+    <None Include="Resources\fondo-01.jpg" />
+    <None Include="Resources\esquema web-011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.csproj">
+      <Project>{99112e89-b98c-481f-b1b2-2250b3b214cb}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{1a5a89d6-14b7-4ee3-ade0-889ce23f6d01}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

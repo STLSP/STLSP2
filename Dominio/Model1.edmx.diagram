@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4cc9a71e56244ad3a8daed451417f040" Name="Diagram1">
+        <EntityTypeShape EntityType="BD_STLSPModel.T_CategoriaFlujo" Width="1.5" PointX="6" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_CategoriaSeñas" Width="1.5" PointX="3.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_Flujo" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_Herramienta" Width="1.5" PointX="6" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_Perfil" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_PerfilxPermiso" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_Permiso" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_Persona" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_Secuencia" Width="1.5" PointX="6" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_Señas" Width="1.5" PointX="6" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_Usuario" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_STLSPModel.T_DetalleFlujo" Width="1.5" PointX="8.25" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_Flujos_T_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_Señas_T_CategoriaSeñas" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_DetalleFlujo_T_Flujo" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_DetalleFlujo_T_Flujo1" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_Flujos_T_Herramienta" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_PerfilxPermiso2" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_Usuario0" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_PerfilxPermiso1" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_Persona3" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_Flujos_T_Secuencia" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_Flujos_T_Señas" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_STLSPModel.FK_T_Flujos_T_Usuario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

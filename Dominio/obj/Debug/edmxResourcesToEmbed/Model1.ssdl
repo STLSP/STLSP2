@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_STLSPModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="T_CategoriaFlujo">
+    <Key>
+      <PropertyRef Name="idCategoria" />
+    </Key>
+    <Property Name="idCategoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="80" />
+    <Property Name="descripcion" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="T_CategoriaSeñas">
+    <Key>
+      <PropertyRef Name="idCategoriaSeñas" />
+    </Key>
+    <Property Name="idCategoriaSeñas" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'BD_STLSP.dbo.T_DetalleFlujo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="T_DetalleFlujo">
+    <Key>
+      <PropertyRef Name="idSeñas" />
+      <PropertyRef Name="idHerramienta" />
+      <PropertyRef Name="idSecuencia" />
+      <PropertyRef Name="idUsuario" />
+      <PropertyRef Name="nombreFlujo" />
+      <PropertyRef Name="idCategoria" />
+      <PropertyRef Name="existe" />
+      <PropertyRef Name="idFlujo" />
+    </Key>
+    <Property Name="idSeñas" Type="int" Nullable="false" />
+    <Property Name="idHerramienta" Type="int" Nullable="false" />
+    <Property Name="idSecuencia" Type="int" Nullable="false" />
+    <Property Name="idUsuario" Type="int" Nullable="false" />
+    <Property Name="nombreFlujo" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="idCategoria" Type="int" Nullable="false" />
+    <Property Name="existe" Type="bit" Nullable="false" />
+    <Property Name="estado" Type="varchar" MaxLength="100" />
+    <Property Name="idFlujo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_Flujo">
+    <Key>
+      <PropertyRef Name="idFlujo" />
+    </Key>
+    <Property Name="idFlujo" Type="int" Nullable="false" />
+    <Property Name="nombreFlujo" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="T_Herramienta">
+    <Key>
+      <PropertyRef Name="idHerramienta" />
+    </Key>
+    <Property Name="idHerramienta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_Perfil">
+    <Key>
+      <PropertyRef Name="idPerfil" />
+    </Key>
+    <Property Name="idPerfil" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="70" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_PerfilxPermiso">
+    <Key>
+      <PropertyRef Name="idPermiso" />
+      <PropertyRef Name="idPerfil" />
+    </Key>
+    <Property Name="estadopermiso" Type="bit" Nullable="false" />
+    <Property Name="idPermiso" Type="int" Nullable="false" />
+    <Property Name="idPerfil" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_Permiso">
+    <Key>
+      <PropertyRef Name="idPermiso" />
+    </Key>
+    <Property Name="idPermiso" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="url" Type="varchar" MaxLength="70" />
+    <Property Name="idPadre" Type="int" Nullable="false" />
+    <Property Name="activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_Persona">
+    <Key>
+      <PropertyRef Name="idPersona" />
+    </Key>
+    <Property Name="idPersona" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombres" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellidoP" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="apellidoM" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="nombresApoderado" Type="varchar" MaxLength="150" />
+    <Property Name="direccion" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="fechaNacimiento" Type="datetime" Nullable="false" />
+    <Property Name="tipoDoc" Type="varchar" MaxLength="20" />
+    <Property Name="numeroDoc" Type="bigint" />
+    <Property Name="tipoDiscapacidad" Type="varchar" MaxLength="150" />
+    <Property Name="telefono" Type="bigint" />
+    <Property Name="celular" Type="bigint" Nullable="false" />
+    <Property Name="distrito" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="idUsuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_Secuencia">
+    <Key>
+      <PropertyRef Name="idSecuencia" />
+    </Key>
+    <Property Name="idSecuencia" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombreSecuencia" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_Señas">
+    <Key>
+      <PropertyRef Name="idSeñas" />
+    </Key>
+    <Property Name="idSeñas" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="gift" Type="varbinary(max)" />
+    <Property Name="idCategoriaSeñas" Type="int" Nullable="false" />
+    <Property Name="estado" Type="varchar" MaxLength="80" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_Usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombreUsuario" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="contraseña" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="150" />
+    <Property Name="idPerfil" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_T_DetalleFlujo_T_Flujo">
+    <End Role="T_Flujo" Type="Self.T_Flujo" Multiplicity="1" />
+    <End Role="T_DetalleFlujo" Type="Self.T_DetalleFlujo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Flujo">
+        <PropertyRef Name="idFlujo" />
+      </Principal>
+      <Dependent Role="T_DetalleFlujo">
+        <PropertyRef Name="idFlujo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_DetalleFlujo_T_Flujo1">
+    <End Role="T_Flujo" Type="Self.T_Flujo" Multiplicity="1" />
+    <End Role="T_DetalleFlujo" Type="Self.T_DetalleFlujo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Flujo">
+        <PropertyRef Name="idFlujo" />
+      </Principal>
+      <Dependent Role="T_DetalleFlujo">
+        <PropertyRef Name="idFlujo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_Flujos_T_Categoria">
+    <End Role="T_CategoriaFlujo" Type="Self.T_CategoriaFlujo" Multiplicity="1" />
+    <End Role="T_DetalleFlujo" Type="Self.T_DetalleFlujo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_CategoriaFlujo">
+        <PropertyRef Name="idCategoria" />
+      </Principal>
+      <Dependent Role="T_DetalleFlujo">
+        <PropertyRef Name="idCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_Flujos_T_Herramienta">
+    <End Role="T_Herramienta" Type="Self.T_Herramienta" Multiplicity="1" />
+    <End Role="T_DetalleFlujo" Type="Self.T_DetalleFlujo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Herramienta">
+        <PropertyRef Name="idHerramienta" />
+      </Principal>
+      <Dependent Role="T_DetalleFlujo">
+        <PropertyRef Name="idHerramienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_Flujos_T_Secuencia">
+    <End Role="T_Secuencia" Type="Self.T_Secuencia" Multiplicity="1" />
+    <End Role="T_DetalleFlujo" Type="Self.T_DetalleFlujo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Secuencia">
+        <PropertyRef Name="idSecuencia" />
+      </Principal>
+      <Dependent Role="T_DetalleFlujo">
+        <PropertyRef Name="idSecuencia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_Flujos_T_Señas">
+    <End Role="T_Señas" Type="Self.T_Señas" Multiplicity="1" />
+    <End Role="T_DetalleFlujo" Type="Self.T_DetalleFlujo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Señas">
+        <PropertyRef Name="idSeñas" />
+      </Principal>
+      <Dependent Role="T_DetalleFlujo">
+        <PropertyRef Name="idSeñas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_Flujos_T_Usuario">
+    <End Role="T_Usuario" Type="Self.T_Usuario" Multiplicity="1" />
+    <End Role="T_DetalleFlujo" Type="Self.T_DetalleFlujo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="T_DetalleFlujo">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_PerfilxPermiso1">
+    <End Role="T_Permiso" Type="Self.T_Permiso" Multiplicity="1" />
+    <End Role="T_PerfilxPermiso" Type="Self.T_PerfilxPermiso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Permiso">
+        <PropertyRef Name="idPermiso" />
+      </Principal>
+      <Dependent Role="T_PerfilxPermiso">
+        <PropertyRef Name="idPermiso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_PerfilxPermiso2">
+    <End Role="T_Perfil" Type="Self.T_Perfil" Multiplicity="1" />
+    <End Role="T_PerfilxPermiso" Type="Self.T_PerfilxPermiso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Perfil">
+        <PropertyRef Name="idPerfil" />
+      </Principal>
+      <Dependent Role="T_PerfilxPermiso">
+        <PropertyRef Name="idPerfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_Persona3">
+    <End Role="T_Usuario" Type="Self.T_Usuario" Multiplicity="1" />
+    <End Role="T_Persona" Type="Self.T_Persona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="T_Persona">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_Señas_T_CategoriaSeñas">
+    <End Role="T_CategoriaSeñas" Type="Self.T_CategoriaSeñas" Multiplicity="1" />
+    <End Role="T_Señas" Type="Self.T_Señas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_CategoriaSeñas">
+        <PropertyRef Name="idCategoriaSeñas" />
+      </Principal>
+      <Dependent Role="T_Señas">
+        <PropertyRef Name="idCategoriaSeñas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_Usuario0">
+    <End Role="T_Perfil" Type="Self.T_Perfil" Multiplicity="1" />
+    <End Role="T_Usuario" Type="Self.T_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Perfil">
+        <PropertyRef Name="idPerfil" />
+      </Principal>
+      <Dependent Role="T_Usuario">
+        <PropertyRef Name="idPerfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BD_STLSPModelStoreContainer">
+    <EntitySet Name="T_CategoriaFlujo" EntityType="Self.T_CategoriaFlujo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_CategoriaSeñas" EntityType="Self.T_CategoriaSeñas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Flujo" EntityType="Self.T_Flujo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Herramienta" EntityType="Self.T_Herramienta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Perfil" EntityType="Self.T_Perfil" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_PerfilxPermiso" EntityType="Self.T_PerfilxPermiso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Permiso" EntityType="Self.T_Permiso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Persona" EntityType="Self.T_Persona" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Secuencia" EntityType="Self.T_Secuencia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Señas" EntityType="Self.T_Señas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Usuario" EntityType="Self.T_Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_DetalleFlujo" EntityType="Self.T_DetalleFlujo" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [T_DetalleFlujo].[idSeñas] AS [idSeñas], 
+    [T_DetalleFlujo].[idHerramienta] AS [idHerramienta], 
+    [T_DetalleFlujo].[idSecuencia] AS [idSecuencia], 
+    [T_DetalleFlujo].[idUsuario] AS [idUsuario], 
+    [T_DetalleFlujo].[nombreFlujo] AS [nombreFlujo], 
+    [T_DetalleFlujo].[idCategoria] AS [idCategoria], 
+    [T_DetalleFlujo].[existe] AS [existe], 
+    [T_DetalleFlujo].[estado] AS [estado], 
+    [T_DetalleFlujo].[idFlujo] AS [idFlujo]
+    FROM [dbo].[T_DetalleFlujo] AS [T_DetalleFlujo]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_T_DetalleFlujo_T_Flujo" Association="Self.FK_T_DetalleFlujo_T_Flujo">
+      <End Role="T_Flujo" EntitySet="T_Flujo" />
+      <End Role="T_DetalleFlujo" EntitySet="T_DetalleFlujo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_DetalleFlujo_T_Flujo1" Association="Self.FK_T_DetalleFlujo_T_Flujo1">
+      <End Role="T_Flujo" EntitySet="T_Flujo" />
+      <End Role="T_DetalleFlujo" EntitySet="T_DetalleFlujo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_Flujos_T_Categoria" Association="Self.FK_T_Flujos_T_Categoria">
+      <End Role="T_CategoriaFlujo" EntitySet="T_CategoriaFlujo" />
+      <End Role="T_DetalleFlujo" EntitySet="T_DetalleFlujo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_Flujos_T_Herramienta" Association="Self.FK_T_Flujos_T_Herramienta">
+      <End Role="T_Herramienta" EntitySet="T_Herramienta" />
+      <End Role="T_DetalleFlujo" EntitySet="T_DetalleFlujo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_Flujos_T_Secuencia" Association="Self.FK_T_Flujos_T_Secuencia">
+      <End Role="T_Secuencia" EntitySet="T_Secuencia" />
+      <End Role="T_DetalleFlujo" EntitySet="T_DetalleFlujo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_Flujos_T_Señas" Association="Self.FK_T_Flujos_T_Señas">
+      <End Role="T_Señas" EntitySet="T_Señas" />
+      <End Role="T_DetalleFlujo" EntitySet="T_DetalleFlujo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_Flujos_T_Usuario" Association="Self.FK_T_Flujos_T_Usuario">
+      <End Role="T_Usuario" EntitySet="T_Usuario" />
+      <End Role="T_DetalleFlujo" EntitySet="T_DetalleFlujo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_PerfilxPermiso1" Association="Self.FK_T_PerfilxPermiso1">
+      <End Role="T_Permiso" EntitySet="T_Permiso" />
+      <End Role="T_PerfilxPermiso" EntitySet="T_PerfilxPermiso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_PerfilxPermiso2" Association="Self.FK_T_PerfilxPermiso2">
+      <End Role="T_Perfil" EntitySet="T_Perfil" />
+      <End Role="T_PerfilxPermiso" EntitySet="T_PerfilxPermiso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_Persona3" Association="Self.FK_T_Persona3">
+      <End Role="T_Usuario" EntitySet="T_Usuario" />
+      <End Role="T_Persona" EntitySet="T_Persona" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_Señas_T_CategoriaSeñas" Association="Self.FK_T_Señas_T_CategoriaSeñas">
+      <End Role="T_CategoriaSeñas" EntitySet="T_CategoriaSeñas" />
+      <End Role="T_Señas" EntitySet="T_Señas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_Usuario0" Association="Self.FK_T_Usuario0">
+      <End Role="T_Perfil" EntitySet="T_Perfil" />
+      <End Role="T_Usuario" EntitySet="T_Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

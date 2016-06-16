@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BD_STLSPModelStoreContainer" CdmEntityContainer="BD_STLSPEntities1">
+    <EntitySetMapping Name="T_CategoriaFlujo">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_CategoriaFlujo">
+        <MappingFragment StoreEntitySet="T_CategoriaFlujo">
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_CategoriaSeñas">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_CategoriaSeñas">
+        <MappingFragment StoreEntitySet="T_CategoriaSeñas">
+          <ScalarProperty Name="idCategoriaSeñas" ColumnName="idCategoriaSeñas" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Flujo">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_Flujo">
+        <MappingFragment StoreEntitySet="T_Flujo">
+          <ScalarProperty Name="idFlujo" ColumnName="idFlujo" />
+          <ScalarProperty Name="nombreFlujo" ColumnName="nombreFlujo" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Herramienta">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_Herramienta">
+        <MappingFragment StoreEntitySet="T_Herramienta">
+          <ScalarProperty Name="idHerramienta" ColumnName="idHerramienta" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Perfil">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_Perfil">
+        <MappingFragment StoreEntitySet="T_Perfil">
+          <ScalarProperty Name="idPerfil" ColumnName="idPerfil" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PerfilxPermiso">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_PerfilxPermiso">
+        <MappingFragment StoreEntitySet="T_PerfilxPermiso">
+          <ScalarProperty Name="estadopermiso" ColumnName="estadopermiso" />
+          <ScalarProperty Name="idPermiso" ColumnName="idPermiso" />
+          <ScalarProperty Name="idPerfil" ColumnName="idPerfil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Permiso">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_Permiso">
+        <MappingFragment StoreEntitySet="T_Permiso">
+          <ScalarProperty Name="idPermiso" ColumnName="idPermiso" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="idPadre" ColumnName="idPadre" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Persona">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_Persona">
+        <MappingFragment StoreEntitySet="T_Persona">
+          <ScalarProperty Name="idPersona" ColumnName="idPersona" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidoP" ColumnName="apellidoP" />
+          <ScalarProperty Name="apellidoM" ColumnName="apellidoM" />
+          <ScalarProperty Name="nombresApoderado" ColumnName="nombresApoderado" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="tipoDoc" ColumnName="tipoDoc" />
+          <ScalarProperty Name="numeroDoc" ColumnName="numeroDoc" />
+          <ScalarProperty Name="tipoDiscapacidad" ColumnName="tipoDiscapacidad" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="distrito" ColumnName="distrito" />
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Secuencia">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_Secuencia">
+        <MappingFragment StoreEntitySet="T_Secuencia">
+          <ScalarProperty Name="idSecuencia" ColumnName="idSecuencia" />
+          <ScalarProperty Name="nombreSecuencia" ColumnName="nombreSecuencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Señas">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_Señas">
+        <MappingFragment StoreEntitySet="T_Señas">
+          <ScalarProperty Name="idSeñas" ColumnName="idSeñas" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="gift" ColumnName="gift" />
+          <ScalarProperty Name="idCategoriaSeñas" ColumnName="idCategoriaSeñas" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Usuario">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_Usuario">
+        <MappingFragment StoreEntitySet="T_Usuario">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="nombreUsuario" ColumnName="nombreUsuario" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="idPerfil" ColumnName="idPerfil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_DetalleFlujo">
+      <EntityTypeMapping TypeName="BD_STLSPModel.T_DetalleFlujo">
+        <MappingFragment StoreEntitySet="T_DetalleFlujo">
+          <ScalarProperty Name="idSeñas" ColumnName="idSeñas" />
+          <ScalarProperty Name="idHerramienta" ColumnName="idHerramienta" />
+          <ScalarProperty Name="idSecuencia" ColumnName="idSecuencia" />
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="nombreFlujo" ColumnName="nombreFlujo" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="existe" ColumnName="existe" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="idFlujo" ColumnName="idFlujo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

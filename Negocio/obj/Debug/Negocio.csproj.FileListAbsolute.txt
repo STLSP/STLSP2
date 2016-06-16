@@ -1,0 +1,31 @@
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\Negocio\bin\Debug\Negocio.dll
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\Negocio\bin\Debug\Negocio.pdb
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\Negocio\bin\Debug\Dominio.dll
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\Negocio\bin\Debug\GestionDatos.dll
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\Negocio\bin\Debug\Dominio.pdb
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\Negocio\bin\Debug\GestionDatos.pdb
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\Negocio\obj\Debug\Negocio.dll
+C:\Users\CRAIG\Desktop\PROGRAMAS FINAL\STLSP\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\bin\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\bin\Debug\Dominio.dll
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\bin\Debug\GestionDatos.dll
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\bin\Debug\GestionDatos.pdb
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\obj\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\Progra STLSP\STLSP\STLSP\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\bin\Debug\Negocio.dll
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\bin\Debug\Dominio.dll
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\bin\Debug\GestionDatos.dll
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\bin\Debug\GestionDatos.pdb
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\obj\Debug\Negocio.dll
+C:\Users\Oscar\Downloads\Tarea_a _realizar 2016-06-12\STLSP_Unificado_v1\STLSP\STLSP\Negocio\obj\Debug\Negocio.pdb
